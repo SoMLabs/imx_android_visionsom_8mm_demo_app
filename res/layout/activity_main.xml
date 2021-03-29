@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/led1Switch"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="LED1"
+        android:textOff="LED1 OFF"
+        android:textOn="LED1 ON" />
+
+    <ToggleButton
+        android:id="@+id/led2Switch"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:text="ToggleButton"
+        android:textOff="LED1 OFF"
+        android:textOn="LED1 ON" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="420dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center_horizontal"
+        android:text="0%"
+        android:textSize="36sp" />
+</LinearLayout>

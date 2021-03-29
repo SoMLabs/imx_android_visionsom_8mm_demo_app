@@ -1,0 +1,7 @@
+android_app {
+    name: "somlabsdemo",
+    srcs: ["com/**/*.java"],
+    product_specific: true,
+    platform_apis: true,
+    certificate: "platform",
+}
