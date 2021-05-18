@@ -25,9 +25,9 @@
         android:layout_height="80dp"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="25dp"
-        android:text="ToggleButton"
-        android:textOff="LED1 OFF"
-        android:textOn="LED1 ON" />
+        android:text="LED2"
+        android:textOff="LED2 OFF"
+        android:textOn="LED2 ON" />
 
     <VideoView
         android:id="@+id/videoView"
