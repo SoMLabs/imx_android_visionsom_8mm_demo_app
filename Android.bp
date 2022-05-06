@@ -1,7 +1,10 @@
 android_app {
     name: "somlabsdemo",
+    manifest: "AndroidManifest.xml",
     srcs: ["com/**/*.java"],
-    product_specific: true,
+    resource_dirs: ["res"],
     platform_apis: true,
     certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
 }
